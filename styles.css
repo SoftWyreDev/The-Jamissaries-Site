@@ -23,9 +23,10 @@ body {
     top: 0;
     display: flex;
     justify-content: center;
-    gap: 18rem;
+    gap: clamp(2rem, 8vw, 18rem);
     padding: 20px 0;
     z-index: 999;
+    flex-wrap: wrap;
   
 }
 
@@ -119,7 +120,7 @@ body {
     height: auto;
     filter: drop-shadow(0 10px 30px rgba(0,0,0,0.5));
     border-radius: 20px;
-    opacity: 0.8;
+    opacity: 0.9;
     transition: transform 0.3s ease;
 }
 
@@ -183,7 +184,7 @@ body {
     margin: 30px 0;
     font-size: 1.25rem;
     line-height: 2;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -227,7 +228,7 @@ body {
 
 .gigs-content strong {
     color: #00bfff;
-    font-size: 20px;
+    font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -318,7 +319,6 @@ audio {
 
 .footer {
     text-align: center;
-    margin-top: 60px;
     padding: 40px 0;
 }
 
@@ -388,7 +388,54 @@ audio {
     color: rgba(255, 255, 255, 0.9);
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 1200px) {
+    .fixed-nav {
+        gap: 5rem;
+        padding: 12px 10px;
+        flex-wrap: wrap;
+    }
+
+    .fixed-nav a {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        padding: 6px 18px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .fixed-nav {
+        gap: 1.5rem;
+        padding: 12px 10px;
+        flex-wrap: wrap;
+    }
+
+    .fixed-nav a {
+        letter-spacing: 2px;
+        padding: 6px 18px;
+    }
+
+    .fixed-nav::before {
+        backdrop-filter: blur(10px);
+    }
+
+    [id] {
+        scroll-margin-top: 90px;
+    }
+
+    audio {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
     .container {
         padding: 40px 15px;
     }
@@ -407,5 +454,45 @@ audio {
     
     .footer-text {
         font-size: 36px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .fixed-nav {
+        gap: 1rem;
+        padding: 10px 8px;
+    }
+
+    .fixed-nav a {
+        letter-spacing: 1px;
+        padding: 6px 14px;
+        font-size: 1.5rem;
+    }
+
+    [id] {
+        scroll-margin-top: 80px;
+    }
+
+    audio {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .fixed-nav {
+        gap: 0.5rem;
+        padding: 10px 8px;
+    }
+
+    .fixed-nav a {
+        font-size: 1rem;
     }
 }
