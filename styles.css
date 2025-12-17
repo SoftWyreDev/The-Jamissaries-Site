@@ -33,7 +33,7 @@ body {
 .fixed-nav a {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: #00bfff;
     text-decoration: none;
     transition: color 0.3s ease, transform 0.3s ease;
@@ -161,6 +161,10 @@ body {
     transform: scale(1.02);
 }
 
+.email b {
+    display: none;
+}
+
 .booking {
     text-align: center;
     font-size: 1.5rem;
@@ -174,6 +178,7 @@ body {
     color: #00bfff;
     text-decoration: none;
     transition: color 0.3s;
+    font-weight: 900;
 }
 
 .booking a:hover {
