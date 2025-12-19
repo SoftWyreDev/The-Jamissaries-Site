@@ -184,6 +184,27 @@ body {
     text-shadow: 0 2px 20px rgba(0,0,0,0.8);
 }
 
+.gigs-content a {
+    color: #00ff88;
+    text-decoration: none;
+    word-break: break-all;
+    transition: color 0.3s ease;
+}
+
+.manifesto a:hover {
+    color: #ffd700;
+}
+
+.manifesto a {
+    font-style: normal;
+    transition: color 0.3s ease;
+}
+
+.no-italic {
+    font-style: normal;
+    font-weight: 500;
+}
+
 .section-title {
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
