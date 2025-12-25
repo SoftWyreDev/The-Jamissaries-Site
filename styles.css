@@ -237,7 +237,6 @@ body {
 .gigs-content a {
     color: #00ff88;
     text-decoration: none;
-    word-break: break-all;
     transition: color 0.3s;
 }
 
@@ -432,6 +431,15 @@ audio {
 
     [id] {
         scroll-margin-top: 90px;
+    }
+
+  .gigs-content {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+
+    .gigs-content a {
+        display: inline-block;
     }
 
     audio {
