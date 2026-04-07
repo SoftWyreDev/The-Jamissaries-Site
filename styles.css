@@ -219,9 +219,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
     padding: 30px;
     border-radius: 15px;
-    border-left: 4px solid #ff1493;
     font-family: 'Inter', sans-serif;
-    white-space: pre-line;
     font-size: 1.25rem;
     line-height: 1.8;
     text-align: center;
@@ -242,6 +240,77 @@ body {
 
 .gigs-content a:hover {
     color: #ffd700;
+}
+
+.events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 0 8px;
+    margin-bottom: 24px;
+}
+
+.event-bubble {
+    border: 1.5px solid #00bfff;
+    border-radius: 8px;
+    padding: 16px 20px;
+    text-align: center;
+    max-width: 700px;  
+    width: 100%;
+    margin: 0 auto;
+}
+
+.event-date {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(13px, 2vw, 20px);
+    font-weight: 700;
+    color: #ffd700;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.event-time {
+    font-size: clamp(12px, 1.8vw, 16px);
+    font-weight: 600;
+    color: #d4af00;
+    margin-bottom: 6px;
+}
+
+.event-venue {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(14px, 2.2vw, 18px);
+    font-weight: 700;
+    color: #ffd700;
+    margin-bottom: 3px;
+}
+
+.event-address {
+    font-size: clamp(11px, 1.6vw, 15px);
+    font-weight: 600;
+    color: #d4af00;
+    font-style: italic;
+}
+
+.event-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-page .site-footer {
+    margin-top: auto;
+}
+
+.event-page .band-title-bar {
+    margin-top: 0;
+}
+
+.event-item:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+.event-bubble:not(:last-child) {
+    margin-bottom: 30px;
 }
 
 .video-section {
@@ -312,7 +381,7 @@ body {
 
 .track:hover {
     transform: translateX(10px);
-    border-color: #ff1493;
+    border-color: #ffd700;
 }
 
 .track-title {
@@ -410,6 +479,11 @@ audio {
         letter-spacing: 2px;
         padding: 6px 18px;
     }
+
+    /* .event-bubble:not(:last-child) {
+        margin-bottom: 10px;
+    } */
+
 }
 
 
@@ -433,9 +507,8 @@ audio {
         scroll-margin-top: 90px;
     }
 
-  .gigs-content {
-        font-size: 0.95rem;
-        padding: 10px;
+    .gigs-content {
+        padding: 20px;
     }
 
     .gigs-content a {
