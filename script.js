@@ -16,7 +16,7 @@ Thursday, April 30, 2026 | 6:00 - 8:00 p.m. | The Salty Otter | 110 Walnut St, S
 
 Saturday, May 9, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
 
-Friday, June 5, 2026 | 8:30 - 11:30 p.m. | Joe’s Bar | 13118 Hwy 9, Boulder Creek, CA (No cover)
+Friday, June 5, 2026 | 8:30 - 11:30 p.m. | Joe's Bar | 13118 Hwy 9, Boulder Creek, CA <br> (No cover)
 
 Saturday, June 13, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
 
@@ -26,7 +26,7 @@ Saturday, July 18, 2026 | 4:30 - 7:00 p.m. | Cayuga Stage | 429 Cayuga St, Santa
 
 Saturday, August 8, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (Beer Brunch, No cover)
 
-Friday, September 4, 2026 | 8:30 - 11:30 p.m. | Joe’s Bar | 13118 Hwy 9, Boulder Creek, CA <br> (No cover)
+Friday, September 4, 2026 | 8:30 - 11:30 p.m. | Joe's Bar | 13118 Hwy 9, Boulder Creek, CA <br> (No cover)
 
 Saturday, September 12, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
 
@@ -34,7 +34,7 @@ Saturday, October 10, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern 
 
 Saturday, November 14, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
 
-Friday, December 4, 2026 | 8:30 - 11:30 p.m. | Joe’s Bar | 13118 Hwy 9, Boulder Creek, CA <br> (No cover)
+Friday, December 4, 2026 | 8:30 - 11:30 p.m. | Joe's Bar | 13118 Hwy 9, Boulder Creek, CA <br> (No cover)
 
 Saturday, December 12, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
 `;
