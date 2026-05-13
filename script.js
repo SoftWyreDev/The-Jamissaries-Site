@@ -8,13 +8,6 @@ window.addEventListener("load", (event) => {
 
 // Event List
 const data = `
-Thursday, April 2, 2026 | 6:30 - 7:30 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (Opening for Trianna Feruza and The Heavy Hitters, No cover)
-
-Saturday, April 11, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (2nd Saturday Afternoon Jamz, Matthew Paul Band opens, No cover)
-
-Thursday, April 30, 2026 | 6:00 - 8:00 p.m. | The Salty Otter | 110 Walnut St, Santa Cruz, CA
-
-Saturday, May 9, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
 
 Friday, June 5, 2026 | 8:30 - 11:30 p.m. | Joe's Bar | 13118 Hwy 9, Boulder Creek, CA <br> (No cover)
 
@@ -25,6 +18,8 @@ Saturday, July 11, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St,
 Saturday, July 18, 2026 | 4:30 - 7:00 p.m. | Cayuga Stage | 429 Cayuga St, Santa Cruz, CA <br> (Sliding scale donation)
 
 Saturday, August 8, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (Beer Brunch, No cover)
+
+Saturday, August 22, 2026 | 5:30 - 7:30 p.m. | Discretion Brewing | 2703 41st Ave. Ste A, Soquel, CA <br> (no cover)
 
 Friday, September 4, 2026 | 8:30 - 11:30 p.m. | Joe's Bar | 13118 Hwy 9, Boulder Creek, CA <br> (No cover)
 
