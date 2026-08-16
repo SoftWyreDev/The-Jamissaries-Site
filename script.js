@@ -8,17 +8,6 @@ window.addEventListener("load", (event) => {
 
 // Event List
 const data = `
-
-
-
-Saturday, July 11, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
-
-Saturday, July 18, 2026 | 4:30 - 7:00 p.m. | Cayuga Stage | 429 Cayuga St, Santa Cruz, CA <br> (Sliding scale donation)
-
-Friday, July 31, 2026 | 5:30 - 8:30 p.m. | Aroma Restaurant | 9600 Hwy 9, Ben Lomond, CA <br> (No cover)
-
-Saturday, August 8, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (Beer Brunch, No cover)
-
 Saturday, August 22, 2026 | 5:30 - 7:30 p.m. | Discretion Brewing | 2703 41st Ave. Ste A, Soquel, CA <br> (no cover)
 
 Friday, September 4, 2026 | 8:30 - 11:30 p.m. | Joe's Bar | 13118 Hwy 9, Boulder Creek, CA <br> (No cover)
@@ -26,6 +15,8 @@ Friday, September 4, 2026 | 8:30 - 11:30 p.m. | Joe's Bar | 13118 Hwy 9, Boulder
 Saturday, September 12, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
 
 Saturday, October 10, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
+
+Friday, October 23, 2026 | 5:00 p.m. | TRIBAL STOMP!!! with Love Creek and The Jamissaries | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
 
 Saturday, November 14, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
 
