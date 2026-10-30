@@ -8,15 +8,7 @@ window.addEventListener("load", (event) => {
 
 // Event List
 const data = `
-Saturday, August 22, 2026 | 5:30 - 7:30 p.m. | Discretion Brewing | 2703 41st Ave. Ste A, Soquel, CA <br> (no cover)
-
-Friday, September 4, 2026 | 8:30 - 11:30 p.m. | Joe's Bar | 13118 Hwy 9, Boulder Creek, CA <br> (No cover)
-
-Saturday, September 12, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
-
-Saturday, October 10, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
-
-Friday, October 23, 2026 | 5:00 p.m. | TRIBAL STOMP!!! with Love Creek and The Jamissaries | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
+Tuesday, November 3, 2026 | 6:00 - 8:00 p.m. | Woodhouse Brewing | 119 Madrone St, Santa Cruz, CA <br> (No cover)
 
 Saturday, November 14, 2026 | 2:00 - 5:00 p.m. | Shanty Shack Brewing | 138 Fern St, Santa Cruz, CA <br> (No cover)
 
